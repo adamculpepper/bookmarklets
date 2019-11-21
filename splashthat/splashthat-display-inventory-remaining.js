@@ -1,6 +1,7 @@
 var currency = splash.server.constants.currency;
 var tickets = splash.server._event.tickets;
-var title = $('.Event.Title .title').text().trim();
+//var title = $('.Event.Title .title').text().trim();
+var title = splash.server._event.title;
 var arrayLength = tickets.length;
 var content = '<h3 style="border-bottom:1px solid #333; margin-bottom:10px;">' + title + '</h3>';
 var contentClipboard = title + '\t';
